@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    
+}
+
+#cabecera {
+    background-color: #08274C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li {
+    margin-right: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-menu li:hover {
+    cursor: pointer;
+}
+
+.nav_menu a {
+    color: white;
+
+}
+
+.nav-menu a:hover {
+
+}
+
+.logotipo img {
+    width: 60px;
+}

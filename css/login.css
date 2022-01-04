@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #64D1BC;
+}
+
+#contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#info_login {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: url(../img/fondoEmpresa.jpeg) no-repeat 0, 0 rgb(8, 39, 76);
+    background-size: 100% 100%;
+    background-blend-mode: multiply;
+
+    width: 500px;
+    height: 650px;
+    border-radius: 20px 0px 0px 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 10px 10px 20px black;
+    padding: 0px 15px;
+}
+
+#info_login img {
+    width: 150px;
+}
+
+#form_login {
+    background-color: white;
+    width: 500px;
+    height: 650px;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 10px 10px 20px black;
+}
+
+#form_login .nav_menu ul {
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+}
+
+#form_login .nav_menu ul {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#enlace_empleado {
+    padding: 10px 20px;
+    border-radius: 20px 0px 0px 20px;
+    color: white;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+
+#enlace_empleado:hover {
+    cursor: pointer;
+}
+
+#enlace_empresa {
+    padding: 10px 25px;
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+
+#enlace_empresa:hover {
+    cursor: pointer;
+}
+
+.seleccionado {
+    background-color: #BFAC69;
+}
+
+.seleccionado:hover {
+    border: 2px solid #BFAC69;
+}
+
+.no_seleccionado {
+    background-color: #08274c;
+}
+
+.no_seleccionado:hover {
+    border: 2px solid #08274c;
+}
