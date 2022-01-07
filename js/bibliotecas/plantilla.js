@@ -12,5 +12,14 @@ export const limpiar = (formulario) => {
     formulario.reset();
 }
 
+//Añade o reemplaza un elemento según si existe este. Se introduce el elemento Padre, el elemento hijo, y el nuevo elemento.
+export const RemplazarElemHijo = (padre, hijo, nuevoElemento) => {
+    if (hijo == null) {
+        padre.appendChild(nuevoElemento);
+    } else {
+        padre.replaceChild(nuevoElemento, hijo);
+    }
+}
+
 //Exportamos.
 export * from './plantilla.js'
