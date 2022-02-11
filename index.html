@@ -5,37 +5,128 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./css/login.css" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
     <title>WorkAs</title>
 </head>
 
 <body>
     <div id="contenido">
-        <div id="info_login">
-            <div class="logotipo">
+        <div id="menuInicio">
+            <ul>
+                <li>
+                    <a href="#divServicios">Servicios</a>
+                </li>
+                <li>
+                    <a href="#divInfoEmpresa">Sobre nosotros</a>
+                </li>
+                <li>
+                    <a href="#footer">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <div id="menuInicioDesplegable">
+            <img src="./img/menuDesplegable.png" alt="">
+        </div>
+        <div id="carruselInicio">
+            <img id="imgCarrusel1" src="./img/carrusel1.jpg" alt="">
+            <img id="imgCarrusel2" src="./img/carrusel1.jpg" alt="">
+            <div id="logotipo">
                 <a href="./index.html"><img src="./img/logoSinFondo.svg" alt=""></a>
             </div>
             <div>
-                <h2>Bienvenido</h2>
-                <p>Inicia sesión como empresa o como empleado.</p>
+                <h1>Bienvenido a WorkAs</h1>
             </div>
             <div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea aperiam voluptas debitis ipsum eveniet ex rem, nesciunt eos explicabo ad doloremque nostrum, minima temporibus obcaecati? Maiores inventore molestiae alias nemo.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea aperiam voluptas debitis ipsum eveniet ex rem, nesciunt eos explicabo ad doloremque nostrum.</p>
             </div>
-            <div></div>
+            <div>
+                <a id="btnLogin" href="./workas.html">Iniciar Sesión</a>
+            </div>
         </div>
-        <div id="form_login">
-            <nav class="nav_menu">
-                <ul>
-                    <li><a id="enlace_empleado">Empleado</a></li>
-                    <li><a id="enlace_empresa">Empresa</a></li>
-                </ul>
-            </nav>
-            <div id="formulario">
+        <div id="divServicios">
+            <h1>Servicios</h1>
+            <hr>
+            <div>
+                <div>
+                    <img src="./img/calendarioServicio.png" alt="">
+                    <h2>Crear Calendario</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium est tempora quaerat quia exercitationem dignissimos incidunt soluta alias ipsum inventore quod, totam quas earum rem? Dicta dolor odio nisi.</p>
+                </div>
+                <div>
+                    <img src="./img/rotarTurnoServicio.png" alt="">
+                    <h2>Rotar Turno</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium est tempora quaerat quia exercitationem dignissimos incidunt soluta alias ipsum inventore quod, totam quas earum rem? Dicta dolor odio nisi.</p>
+                </div>
+                <div>
+                    <img src="./img/mostrarDatosEmpleadoServicio.png" alt="">
+                    <h2>Mostrar Datos</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium est tempora quaerat quia exercitationem dignissimos incidunt soluta alias ipsum inventore quod, totam quas earum rem? Dicta dolor odio nisi.</p>
+                </div>
+                <div>
+                    <img src="./img/anyadirEmpleadoServicio.png" alt="">
+                    <h2>Añadir Empleado</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium est tempora quaerat quia exercitationem dignissimos incidunt soluta alias ipsum inventore quod, totam quas earum rem? Dicta dolor odio nisi.</p>
+                </div>
+                <div>
+                    <img src="./img/tablonNoticiaServicio.png" alt="">
+                    <h2>Crear Tablón de Anuncios</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium est tempora quaerat quia exercitationem dignissimos incidunt soluta alias ipsum inventore quod, totam quas earum rem? Dicta dolor odio nisi.</p>
+                </div>
+                <div>
+                    <img src="./img/chatServicio.png" alt="">
+                    <h2>Comunicación por Chat</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium est tempora quaerat quia exercitationem dignissimos incidunt soluta alias ipsum inventore quod, totam quas earum rem? Dicta dolor odio nisi.</p>
+                </div>
+            </div>
+        </div>
+        <div id="divUbiInfoEmpresa">
+            <div id="divInfoEmpresa">
+                <h2>Sobre nosotros...</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis ex magni quas ea perferendis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sequi ipsum mollitia, cum, eius error perspiciatis voluptate corporis facilis ipsam possimus blanditiis! Veritatis est laudantium cum provident vel. Rerum, corporis?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis ex magni quas ea perferendis.</p>
+            </div>
+            <div id="divUbi">
+                <iframe scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Avenida%20Rey%20Don%20Jaime%20I%20Sax+(Oficina%20WorkAs)&amp;t=p&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                    frameborder="0"></iframe>
+                <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=c3e514ac17b50a53be3a99e8a09f3b6e224b2f7b'></script>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="infoFooter">
+                <div id="footerLogo">
+                    <a href="./index.html"><img src="./img/logoSinFondo.svg" alt=""></a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam enim sunt illum saepe vel sed perferendis beatae delectus eos, quia labore, eius quos, voluptate nobis fugit velit quo nisi. Ipsum?</p>
+                </div>
+                <div id="footerRedes">
+                    <h2>Redes Sociales</h2>
+                    <div><img src="./img/facebook.png" alt=""> <a href="">Síguenos en Facebook</a></div>
+                    <div><img src="./img/pinterest.png" alt=""> <a href="">Síguenos en Pinterest</a></div>
+                    <div><img src="./img/twitter.png" alt=""> <a href="">Síguenos en Twitter</a></div>
+                    <div><img src="./img/instagram.png" alt=""> <a href="">Síguenos en Instagram</a></div>
+                </div>
+                <div id="footerContacto">
+                    <h2>Más información</h2>
+                    <div><img src="./img/ubicacion.png" alt=""> <a href="">Oficina en Sax, Alicante, 03630</a></div>
+                    <div><img src="./img/movil.png" alt=""> <a href="">+34 622 54 56 80</a> | <a href="">+34 622 42 41 04</a></div>
+                    <div><img src="./img/correo.png" alt=""> <a href="">WorkAs@gmail.com</a></div>
+                </div>
+            </div>
+            <div id="copyrightPoliticas">
+                <div>
+                    <small>© 2021-2022, WorkAs.com, Izan Torres Barceló. Todos los derechos reservados.</small>
+                </div>
+                <div>
+                    <a href="./index.html">Home</a> |
+                    <a href="">Información Compañía</a> |
+                    <a href="">Privación y política</a> |
+                    <a href="">Términos y condiciones</a>
+                </div>
             </div>
         </div>
     </div>
-    <script type="module" src="./js/login.js"></script>
+    <script type="module" src="./js/index.js"></script>
 </body>
 
 </html>

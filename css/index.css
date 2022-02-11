@@ -1,0 +1,501 @@
+@media only screen and (min-width: 1281px) {
+    * {
+        margin: 0px;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+    body {}
+    #menuInicioDesplegable {
+        display: none;
+    }
+    #menuInicio {
+        position: absolute;
+        top: 20px;
+        right: 0px;
+    }
+    #menuInicio ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 600px;
+        text-align: center;
+    }
+    #menuInicio ul a {
+        width: 200px;
+        color: white;
+        font-size: 20px;
+        padding: 20px 0px;
+    }
+    #menuInicio ul a:hover {
+        border-bottom: 2px solid #BFAC69;
+        cursor: pointer;
+    }
+    #menuInicio a {}
+    #carruselInicio {
+        background: rgba(8, 39, 76, 0.80);
+        width: 100%;
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+    #logotipo img {
+        width: 180px;
+    }
+    #imgCarrusel1 {
+        position: absolute;
+        z-index: -1;
+        background-blend-mode: multiply;
+        width: 100%;
+        height: 750px;
+    }
+    #imgCarrusel2 {
+        position: absolute;
+        z-index: -2;
+        background-blend-mode: multiply;
+        width: 100%;
+        height: 750px;
+    }
+    #carruselInicio p {
+        padding: 10px 100px;
+    }
+    #btnLogin {
+        transition: .5s;
+        border: 3px solid #BFAC69;
+        background-color: #BFAC69;
+        padding: .75em 2.5em;
+        color: white;
+        border-radius: 15px;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #btnLogin:hover {
+        transition: .5s;
+        cursor: pointer;
+        color: white;
+        background-color: #806e30;
+        border: 3px solid #806e30;
+        box-shadow: 3px 3px 6px black;
+    }
+    #divServicios {
+        text-align: center;
+        padding-top: 15px;
+        background-color: #F2EEF7;
+    }
+    #divServicios h1 {
+        color: #1B4A56;
+        font-weight: normal;
+    }
+    #divServicios hr {
+        width: 50px;
+        margin: 0px auto;
+        margin-top: 15px;
+        border: 2px solid #FF2768;
+        border-radius: 50%;
+    }
+    #divServicios div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px 50px;
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+    #divServicios div div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 400px;
+    }
+    #divServicios div div * {
+        margin: 10px 0px;
+    }
+    #divServicios div div h2 {
+        color: #FF2768;
+        font-weight: normal;
+    }
+    #divServicios div div p {
+        font-style: italic;
+    }
+    #divServicios div img {
+        width: 80px;
+        border-left: 2.5px solid #1B4A56;
+        border-right: 2.5px solid #1B4A56;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    #divUbiInfoEmpresa {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #F0E1DE;
+    }
+    #divInfoEmpresa {
+        width: 500px;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin: 4px 15px;
+        border-left: 2px solid #F7C9B6;
+        border-right: 3px solid #F7C9B6;
+        border-radius: 100px;
+    }
+    #divInfoEmpresah2 {
+        color: #549BAD;
+    }
+    #divInfoEmpresap {
+        font-style: italic;
+    }
+    #divUbi {
+        padding: 0px 20px;
+        margin: 4px 15px;
+    }
+    #divUbi iframe {
+        width: 500px;
+        height: 500px;
+        padding-top: 4px;
+    }
+    #infoFooter {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        background-color: #08274C;
+        color: white;
+    }
+    #infoFooter div {
+        width: 400px;
+        margin: 0 auto;
+        padding: 40px 0px;
+    }
+    #infoFooter a {
+        color: white;
+    }
+    #infoFooter a:hover {
+        color: #BFAC69;
+    }
+    #infoFooter img {
+        width: 30px;
+        margin-left: 10px;
+    }
+    #infoFooter img:hover {
+        cursor: pointer;
+    }
+    #footerLogo {
+        width: 40%;
+        text-align: center;
+        padding: 10px 50px;
+    }
+    #footerLogo img {
+        width: 150px;
+        padding-bottom: 30px;
+    }
+    #footerRedes {
+        width: 30%;
+        padding-left: 50px;
+    }
+    #footerRedes div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 12px 0px;
+    }
+    #footerRedes div img {
+        margin: 0em .5em;
+    }
+    #footerContacto {
+        width: 30%;
+        padding-left: 50px;
+    }
+    #footerContacto div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 12px 0px;
+    }
+    #footerContacto div a {
+        margin: 0em .5em;
+    }
+    #copyrightPoliticas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #041C32;
+        padding: 5px 0px;
+        color: white;
+    }
+    #copyrightPoliticas div {
+        width: 650px;
+        margin: 0 auto;
+    }
+    #copyrightPoliticas a {
+        color: white;
+    }
+    #copyrightPoliticas a:hover {
+        color: #BFAC69;
+    }
+    #copyrightPoliticas small {
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    * {
+        margin: 0px;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+    #menuInicioDesplegable {
+        position: absolute;
+        top: 20px;
+        right: 35px;
+    }
+    #menuInicioDesplegable img {
+        width: 50px;
+        filter: invert(1);
+    }
+    #menuInicioDesplegable img:hover {
+        cursor: pointer;
+    }
+    #menuInicio {
+        display: none;
+    }
+    #carruselInicio {
+        background: rgba(8, 39, 76, 0.80);
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+    #logotipo img {
+        width: 150px;
+    }
+    #imgCarrusel1 {
+        position: absolute;
+        z-index: -1;
+        background-blend-mode: multiply;
+        height: 750px;
+    }
+    #imgCarrusel2 {
+        position: absolute;
+        z-index: -2;
+        background-blend-mode: multiply;
+        height: 750px;
+    }
+    #carruselInicio p {
+        padding: 10px 30px;
+    }
+    #btnLogin {
+        transition: .5s;
+        border: 3px solid #BFAC69;
+        background-color: #BFAC69;
+        padding: .75em 2.5em;
+        color: white;
+        border-radius: 15px;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #btnLogin:hover {
+        transition: .5s;
+        cursor: pointer;
+        color: white;
+        background-color: #806e30;
+        border: 3px solid #806e30;
+        box-shadow: 3px 3px 6px black;
+    }
+    #divServicios {
+        text-align: center;
+        padding-top: 15px;
+        background-color: #F2EEF7;
+    }
+    #divServicios h1 {
+        color: #1B4A56;
+        font-weight: normal;
+    }
+    #divServicios hr {
+        width: 50px;
+        margin: 0px auto;
+        margin-top: 15px;
+        border: 2px solid #FF2768;
+        border-radius: 50%;
+    }
+    #divServicios div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px 50px;
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+    #divServicios div div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 400px;
+    }
+    #divServicios div div * {
+        margin: 10px 0px;
+    }
+    #divServicios div div h2 {
+        color: #FF2768;
+        font-weight: normal;
+    }
+    #divServicios div div p {
+        font-style: italic;
+    }
+    #divServicios div img {
+        width: 80px;
+        border-left: 2.5px solid #1B4A56;
+        border-right: 2.5px solid #1B4A56;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    #divUbiInfoEmpresa {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #F0E1DE;
+    }
+    #divInfoEmpresa {
+        width: 500px;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin: 4px 15px;
+        border-left: 2px solid #F7C9B6;
+        border-right: 3px solid #F7C9B6;
+        border-radius: 100px;
+    }
+    #divInfoEmpresah2 {
+        color: #549BAD;
+    }
+    #divInfoEmpresap {
+        font-style: italic;
+    }
+    #divUbi {
+        padding: 0px 20px;
+        margin: 4px 15px;
+    }
+    #divUbi iframe {
+        width: 450px;
+        height: 500px;
+        padding-top: 4px;
+    }
+    #divUbi a {
+        visibility: hidden;
+    }
+    #infoFooter {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        background-color: #08274C;
+        color: white;
+    }
+    #infoFooter div {
+        width: 400px;
+        margin: 0 auto;
+        padding: 40px 0px;
+    }
+    #infoFooter a {
+        color: white;
+    }
+    #infoFooter a:hover {
+        color: #BFAC69;
+    }
+    #infoFooter img {
+        width: 30px;
+        margin-left: 10px;
+    }
+    #infoFooter img:hover {
+        cursor: pointer;
+    }
+    #footerLogo {
+        width: 40%;
+        text-align: center;
+        padding: 10px 50px;
+    }
+    #footerLogo img {
+        width: 150px;
+        padding-bottom: 30px;
+    }
+    #footerRedes {
+        width: 30%;
+        padding-left: 50px;
+    }
+    #footerRedes div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 12px 0px;
+    }
+    #footerRedes div img {
+        margin: 0em .5em;
+    }
+    #footerContacto {
+        width: 30%;
+        padding-left: 50px;
+    }
+    #footerContacto div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 12px 0px;
+    }
+    #footerContacto div a {
+        margin: 0em .5em;
+    }
+    #copyrightPoliticas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #041C32;
+        padding: 5px 0px;
+        color: white;
+    }
+    #copyrightPoliticas div {
+        width: 650px;
+        margin: 0 auto;
+    }
+    #copyrightPoliticas a {
+        color: white;
+    }
+    #copyrightPoliticas a:hover {
+        color: #BFAC69;
+    }
+    #copyrightPoliticas small {
+        font-weight: bold;
+    }
+}
